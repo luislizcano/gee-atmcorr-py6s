@@ -14,5 +14,8 @@ luislizcanos@usf.edu<br/>
 Created: 10/30/2020<br/>
 Updated: 09/02/2021
 
+## Sentinel-2 Image Before:
+<img src="https://raw.github.com/luislizcano/gee-atmcorr-py6s/main/jupyter_notebooks/toa.png" width="800">
 
-<img src="https://raw.github.com/luislizcano/gee-atmcorr-py6s/main/bin/toa.png" width="400">
+## Sentinel-2 Image After:
+<img src="https://raw.github.com/luislizcano/gee-atmcorr-py6s/main/jupyter_notebooks/boa.png" width="800">
