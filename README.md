@@ -15,4 +15,4 @@ Created: 10/30/2020<br/>
 Updated: 09/02/2021
 
 
-<img src="https://raw.github.com/luislizcano/gee-atmcorr-py6s/main/bin/toa.jpeg" width="400">
+<img src="https://raw.github.com/luislizcano/gee-atmcorr-py6s/main/bin/toa.png" width="400">
