@@ -5,7 +5,7 @@ Information on satellite missions stored here (e.g. wavebands, etc.)
 
 Modified by Luis Lizcano-Sandoval
 College of Marine Science, University of South Florida
-10-22-2020
+09-28-2020
 """
 
 import ee
@@ -140,10 +140,8 @@ def ESUNs(image, mission, band):
   
     # For Sentinel-2:
     Sentinel2 = []
-    Landsat8 = []
-    Landsat7 = [] # PAN =  1362 (removed to match Py6S)
-    Landsat5 = []
-    Landsat4 = []
+    if 'Sentinel' in mission:
+        Sentinel2 =  float(image.get('SOLAR_IRRADIANCE_' + band).getInfo())
     
     # Coefficients for Landsat:
     esunL8 = {
@@ -183,13 +181,17 @@ def ESUNs(image, mission, band):
     }
     
     # Get the coefficient at the specified band:
-    if 'Sentinel' in mission:
-        Sentinel2 =  float(image.get('SOLAR_IRRADIANCE_' + band).getInfo())
-    elif 'Landsat8' in mission:
+    Landsat8 = []
+    Landsat7 = [] # PAN =  1362 (removed to match Py6S)
+    Landsat5 = []
+    Landsat4 = []
+    if 'Landsat8' in mission:
         Landsat8 = esunL8[band]
-    else:
+    elif 'Landsat7' in mission:
         Landsat7 = esunL7[band] # PAN =  1362 (removed to match Py6S)
+    elif 'Landsat5' in mission:
         Landsat5 = esunL5[band]
+    elif 'Landsat4' in mission:
         Landsat4 = esunL4[band]
     
     switch = {
