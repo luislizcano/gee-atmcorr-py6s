@@ -37,7 +37,7 @@ def BOA(mission,image,bandname):
     #SRTM = ee.Image('CGIAR/SRTM90_V4')# Shuttle Radar Topography mission covers *most* of the Earth
     #alt = SRTM.reduceRegion(reducer = ee.Reducer.mean(),geometry = imgCentroid).get('elevation').getInfo()
     #km = alt/1000 # i.e. Py6S uses units of kilometers
-    km = 0.001 #Set to 1m due to we are only interested in coastal water, not land.
+    km = 0.001 #Set to 1m due to we are only interested in coastal water, not inland objects.
 
     # Date used for the Atmospheric correction functions, in GEE format:
     ee_date = ee.Date(image.get('system:time_start'))
