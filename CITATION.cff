@@ -1,0 +1,15 @@
+# YAML 1.2
+---
+authors: 
+  -
+    affiliation: "College of Marine Science, University of South Florida"
+    family-names: "Lizcano-Sandoval"
+    given-names: Luis
+    orcid: "https://orcid.org/0000-0003-2312-1836"
+cff-version: "1.1.0"
+doi: "10.5281/zenodo.5514005"
+message: "If you use this software, please cite it using these metadata."
+repository-code: "https://github.com/luislizcano/gee-atmcorr-py6s"
+title: "Multi-Sensor Atmospheric Correction in Google Earth Engine Python API"
+version: "2021.09.02"
+...
