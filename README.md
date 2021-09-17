@@ -2,6 +2,8 @@
 
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fluislizcano%2Fgee-atmcorr-py6s%2F&count_bg=%2379C83D&title_bg=%23555555&icon=nextdoor.svg&icon_color=%23E7E7E7&title=Visits&edge_flat=false)](https://hits.seeyoufarm.com)
 [![GPL license](https://img.shields.io/badge/License-GPL-blue.svg)](http://perso.crans.org/besson/LICENSE.html)
+[![DOI](https://zenodo.org/badge/304372687.svg)](https://zenodo.org/badge/latestdoi/304372687)
+
 
 **Description:** This script allows to do atmospheric correction for list of images (or individual images) of Sentinel-2 and Landsat sensors, especifically for images over coastal or oceanic areas, using the GEE Python API in Jupyter Notebook. Some atmospheric correction settings can be modified in the *parameters.py* module to work with images over inland areas (See line 36 in that module). The script does AC automatically by providing the right satellite mission, list of image ID's, and a specific GEE Asset to export processed images to your personal GEE account.<br/>
 
