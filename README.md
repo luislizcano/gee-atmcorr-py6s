@@ -23,7 +23,7 @@ Install `conda install -c conda-forge earthengine-api`\
 Get credentials `earthengine authenticate`
 
 ### * [Py6S](https://py6s.readthedocs.io/en/latest/installation.html)
-Install `conda create -n py6s-env -c conda-forge py6s`
+Install `conda install -c conda-forge py6s`
 
 ## Sentinel-2 Image Before:
 <img src="https://raw.github.com/luislizcano/gee-atmcorr-py6s/main/jupyter_notebooks/toa.png" width="800">
