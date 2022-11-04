@@ -15,7 +15,7 @@ By Luis Lizcano-Sandoval<br/>
 College of Marine Science, University of South Florida<br/>
 luislizcanos@usf.edu<br/>
 Created: 10/30/2020<br/>
-Updated: 09/02/2021
+Updated: 11/04/2022
 
 ## Required packages
 ### conda environment
