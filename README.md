@@ -17,7 +17,7 @@ luislizcanos@usf.edu<br/>
 Created: 10/30/2020<br/>
 Updated: 09/02/2021
 
-## Required packages (using conda environment - recommended)
+## Required packages
 ### conda environment
 `!pip install -q condacolab`<br/>
 `import condacolab`<br/>
