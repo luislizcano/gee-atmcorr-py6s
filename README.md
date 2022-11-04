@@ -18,12 +18,19 @@ Created: 10/30/2020<br/>
 Updated: 09/02/2021
 
 ## Required packages (using conda environment - recommended)
+### conda environment
+!pip install -q condacolab
+import condacolab
+condacolab.install()
+
+### pyparse
+!pip install pyparsing==2.4.2
+
 ### * [earthengine](https://developers.google.com/earth-engine/guides/python_install-conda)
-Install `conda install -c conda-forge earthengine-api`\
-Get credentials `earthengine authenticate`
+!earthengine authenticate
 
 ### * [Py6S](https://py6s.readthedocs.io/en/latest/installation.html)
-Install `conda install -c conda-forge py6s`
+!conda install -c conda-forge py6s --yes
 
 ## Sentinel-2 Image Before:
 <img src="https://raw.github.com/luislizcano/gee-atmcorr-py6s/main/jupyter_notebooks/toa.png" width="800">
