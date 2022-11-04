@@ -19,8 +19,8 @@ Updated: 09/02/2021
 
 ## Required packages (using conda environment - recommended)
 ### conda environment
-!pip install -q condacolab
-import condacolab
+!pip install -q condacolab<br/>
+import condacolab<br/>
 condacolab.install()
 
 ### pyparse
